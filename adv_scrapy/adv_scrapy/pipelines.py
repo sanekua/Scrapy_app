@@ -9,7 +9,3 @@
 class AdvScrapyPipeline(object):
     def process_item(self, item, spider):
         return item
-
-
-class NewPhine:
-    print('Task1')
