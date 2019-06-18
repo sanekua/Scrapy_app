@@ -9,9 +9,3 @@
 class AdvScrapyPipeline(object):
     def process_item(self, item, spider):
         return item
-
-
-
-class Advanced(object):
-    def process_item(self, item, spider):
-        return item
