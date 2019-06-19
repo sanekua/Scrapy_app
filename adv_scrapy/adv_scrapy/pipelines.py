@@ -9,3 +9,8 @@
 class AdvScrapyPipeline(object):
     def process_item(self, item, spider):
         return item
+
+
+class AdvScrapyPipeline1(object):
+    def process_item(self, item, spider):
+        return item
