@@ -14,3 +14,10 @@ class AdvScrapyPipeline(object):
 class AdvScrapyPipeline1(object):
     def process_item(self, item, spider):
         return item
+
+import mysql.connector
+
+    class PhonesPipeline(object):
+        def __init__(self):
+            self.create_connection()
+            self.create_table()
