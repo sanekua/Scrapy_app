@@ -1,11 +1,6 @@
 import scrapy
 
 
-print(23)
-print('test')
-
-print(23)
-print('test')
-
-print(23)
-print('test')
+def parse(self, response):
+    items = PhonesItem()
+    all_items = response.css('div.s-item-container')
